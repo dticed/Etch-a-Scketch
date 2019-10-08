@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.grid-row {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.grid-column {
+    border: .1px solid #141115;
+    width: 100%;
+}
+
+.black {
+    background-color: black;
+}
